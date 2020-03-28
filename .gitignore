@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+npm-debug.log
+test_results
+.idea
+newrelic_agent.log
+xunit.xml
+.vscode
