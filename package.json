@@ -2,13 +2,15 @@
   "name": "jest-repl",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "anagramChecker.js",
   "scripts": {
-    "test": "node_modules/.bin/jest"
+    "test": "node_modules/.bin/jest",
+    "format": "prettier --write ."
   },
-  "author": "",
+  "author": "John Hill",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^25.2.3"
+    "jest": "25.2.3",
+    "prettier": "2.0.2"
   }
 }
