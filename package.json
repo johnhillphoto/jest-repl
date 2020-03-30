@@ -2,9 +2,9 @@
     "name": "jest-repl",
     "version": "1.0.0",
     "description": "",
-    "main": "anagramChecker.js",
+    "main": "loremIpsum.js",
     "scripts": {
-        "test": "node_modules/.bin/jest",
+        "test": "node_modules/.bin/jest --detectOpenHandles",
         "format": "prettier --write ."
     },
     "author": "John Hill",
@@ -12,5 +12,6 @@
     "devDependencies": {
         "jest": "25.2.3",
         "prettier": "2.0.2"
-    }
+    },
+    "dependencies": {}
 }
